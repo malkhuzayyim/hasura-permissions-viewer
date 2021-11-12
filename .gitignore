@@ -2,6 +2,9 @@
 node_modules
 /dist
 
+# project files
+/parser/tables.yaml
+/src/assets/tables.json
 
 # local env files
 .env.local

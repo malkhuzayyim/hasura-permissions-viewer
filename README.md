@@ -1,24 +1,12 @@
 # hasura-permissions-viewer
 
-## Project setup
-```
-npm install
-```
+A simple hasura permissions viewer built with Vue 2, Vuetify 2, js-yaml & vue-json-pretty.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You just need a recent version of node installed.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Steps to use the repo:
+- Clone & npm install
+- Drop a `tables.yaml` file inside the `parser/` directory.
+- run `npm run parse`
+- run `npm run serve`
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
